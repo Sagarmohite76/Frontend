@@ -9,7 +9,7 @@ export const AuthProvider = ({ children }) => {
   const [loading, setLoading] = useState(false);
 
   // Backend API URL
-  const API_URL = import.meta.env.VITE_API_URL?.replace(/\/$/, '') || 'https://auth-backend-1ldj.onrender.com';
+  const API_URL = import.meta.env.VITE_API_URL?.replace(/\/$/, '') || 'https://auth-backend-1-fbep.onrender.com';
 
   // Generic API call helper
   const apiCall = async (endpoint, data, successMessage, Icon = CheckCircle) => {
