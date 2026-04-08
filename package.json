@@ -3,14 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Sagarmohite76.github.io/Auth-Frontend",
+  "homepage": "https://github.com/Sagarmohite76/Frontend.git",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-"deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "clsx": "^2.1.1",
@@ -41,4 +41,3 @@
     "vite": "^8.0.4"
   }
 }
-
